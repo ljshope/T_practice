@@ -2,7 +2,7 @@
 """
 Created on Mon Nov 16 16:36:06 2020
 
-@author: reejung
+@author: Joon
 """
 
 def oppo(binary_num, n = 0):

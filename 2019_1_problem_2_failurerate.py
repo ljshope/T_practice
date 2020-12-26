@@ -7,8 +7,8 @@ Created on Sat Dec 26 17:10:30 2020
 def sorting_result( Arr ):
     dic = {}
     for i in range( len(Arr) ):
-        dic[i+1] = -Arr[i]
-    dic = dict(sorted(dic.items(), key = lambda item:item[1]))
+        dic[i+1] = Arr[i]
+    dic = dict(sorted(dic.items(), key = lambda item:item[1], reverse = True))
     return( list( dic.keys() ) )
 
 def solution(N, A):
